@@ -12,36 +12,57 @@ tools:context="soeonkim.kr.hs.emirim.simplecalculator.MainActivity">
     android:layout_height="wrap_content"
     android:gravity="center"
     android:textSize="30sp"
-    android:text="단순 계산기"/>
+    android:text="단순 계산기"
+
+    />
 
 <EditText
-    android:id="@+id/edit_1"
+    android:id="@+id/edit_first"
     android:layout_width="50dp"
     android:layout_height="wrap_content"
-    android:hint="정수로 입력"/>
+    android:hint="정수 값으로 입력 " />
 
 <EditText
-    android:id="@+id/edit_2"
+    android:id="@+id/edit_second"
     android:layout_width="50dp"
     android:layout_height="wrap_content"
-    android:hint="정수로 입력"/>
+    android:hint="정수 값으로 입력 " />
 
+<Button
+    android:id="@+id/but_plus"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="+"
+
+    />
 <Button
     android:id="@+id/but_minus"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:text="확인"/>
+    android:text="-"
 
+    />
 <Button
-    android:id="@+id/but_divsision"
+    android:id="@+id/but_multiply"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:text="확인"/>
+    android:text="x"
 
+    />
 <Button
-    android:id="@+id/but_result"
+    android:id="@+id/but_division"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:text="확인"/>
+    android:text="/"
+
+    />
+<TextView
+    android:id="@+id/text_result"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="30sp"
+    android:textColor="#dc5252"
+    />
+
 
 </LinearLayout>
